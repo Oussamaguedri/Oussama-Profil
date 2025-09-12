@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Karim Bel Hadj Ali – Wirtschaftsingenieur & Projektmanager </title>
+  <title>Oussama Guedri – Wirtschaftsingenieur & Projektmanager </title>
   <meta name="description" content="Wirtschaftsingenieur & Projektmanager. Verfügbar ab sofort. Standort: Hannover – deutschland, Frankreich Schweiz & Dubai remote/onsite." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,7 +46,7 @@
       <div class="grid lg:grid-cols-2 gap-10 items-center">
         <div>
           <span class="inline-block mb-4 text-xs font-semibold tracking-wider uppercase text-blue-700 bg-blue-100 rounded-full px-3 py-1">Verfügbar ab sofort</span>
-          <h1 class="text-3xl md:text-5xl font-extrabold leading-tight tracking-tight">Karim Bel Hadj Ali<br><span class="text-blue-700"> Wirtschaftsingenieur & Projektmanager </span></h1>
+          <h1 class="text-3xl md:text-5xl font-extrabold leading-tight tracking-tight">Oussama Guedri<br><span class="text-blue-700"> Wirtschaftsingenieur & Projektmanager </span></h1>
           <p class="mt-5 text-slate-700 max-w-2xl">Industrieerfahrung in Software, Batterietechnik und Bau. Fokus auf Projektmanagement (klassisch & agil), Supply Chain, Controlling sowie Vertrags- & Nachtragsmanagement (VOB/HOAI). Deutschland, Frankreich, Schweiz & Dubai – remote oder vor Ort.</p>
           <p class="mt-3 text-slate-800 font-semibold">Teilnahme an <span class="text-blue-700">40+ Projekten</span> in verschiedenen Branchen.</p>
           <div class="mt-6 flex flex-wrap gap-3">
@@ -67,7 +67,7 @@
         <div class="relative flex justify-center">
           <!-- Profile image with white background card -->
           <div class="rounded-3xl bg-white p-3 shadow-xl border border-slate-200">
-            <img src="profile.PNG" alt="Karim Bel Hadj Ali" class="rounded-2xl object-cover w-[360px] h-[480px]" />
+            <img src="profile.PNG" alt="Oussama Guedri" class="rounded-2xl object-cover w-[360px] h-[480px]" />
           </div>
         </div>
       </div>
@@ -417,7 +417,7 @@
 <!-- Footer -->
   <footer class="py-10">
     <div class="max-w-6xl mx-auto px-4 text-sm text-slate-500 flex flex-col md:flex-row items-center justify-between gap-3">
-      <p>&copy; <span id="year"></span> Karim Bel Hadj Ali. Alle Rechte vorbehalten.</p>
+      <p>&copy; <span id="year"></span> Oussama Guedri. Alle Rechte vorbehalten.</p>
       <div class="flex items-center gap-3">
         <a class="hover:text-slate-700" href="#top">Impressum (Platzhalter)</a>
         <span aria-hidden="true">·</span>
