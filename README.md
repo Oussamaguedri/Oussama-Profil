@@ -22,7 +22,7 @@
   <header class="sticky top-0 z-40 backdrop-blur bg-white/70 border-b border-slate-200/60">
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
       <a href="#top" class="flex items-center">
-  <img src="KBHA-logo.png" alt="Karim Bel Hadj Ali Logo" class="h-10 w-auto" />
+  <img src="Logo Oussama Guedri.png " alt="Karim Bel Hadj Ali Logo" class="h-10 w-auto" />
 </a>
 
       <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
