@@ -315,8 +315,8 @@
         <aside class="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-sm">
           <h3 class="font-bold">Direktkontakt</h3>
           <ul class="mt-3 text-sm space-y-1 pl-0 list-none">
-  <li><strong>E-Mail:</strong> <a class="text-blue-700 underline" href="mailto:karim.belhajali@icloud.com">karim.belhajali@icloud.com</a></li>
-  <li><strong>Telefon:</strong> <a class="text-blue-700 underline" href="tel:+491728890424">+49 172 8890424</a></li>
+  <li><strong>E-Mail:</strong> <a class="text-blue-700 underline" href="mailto:Oussamaguedri@gmail.com">Oussamaguedri@gmail.com</a></li>
+  <li><strong>Telefon:</strong> <a class="text-blue-700 underline" href="tel:+491637254664">+49 1637254664</a></li>
   <li><strong>Adresse:</strong> Hannover </li>
   <li><strong>Verfügbarkeit:</strong> ab sofort</li>
 </ul>
