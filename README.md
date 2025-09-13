@@ -113,7 +113,6 @@
           </ul>
         </div>
       </div>
-    </div>
   </section>
 
   <!-- Referenzen / Logos (auto sliding) -->
