@@ -46,7 +46,7 @@
       <div class="grid lg:grid-cols-2 gap-10 items-center">
         <div>
           <span class="inline-block mb-4 text-xs font-semibold tracking-wider uppercase text-blue-700 bg-blue-100 rounded-full px-3 py-1">Verfügbar ab sofort</span>
-          <h1 class="text-3xl md:text-5xl font-extrabold leading-tight tracking-tight">Oussama Guedri<br><span class="text-blue-700"> Maschinenbauingenieur & Fertigung / Qualitätsingenieur  </span></h1>
+          <h1 class="text-3xl md:text-5xl font-extrabold leading-tight tracking-tight">Oussama Guedri<br><span class="text-blue-700"> Maschinenbauingenieur & Fertigung  /  Qualitätsingenieur  </span></h1>
           <p class="mt-5 text-slate-700 max-w-2xl">Industrieerfahrung in Antriebstechnik, Fertigung und Produktion. Fokus auf Simulation mit Schwerpunkt auf Konstruktion, Prozessoptimierung und Qualitätssicherung . Deutschland – remote oder vor Ort.</p>
           <p class="mt-3 text-slate-800 font-semibold">Teilnahme in verschiedenen Branchen.</p>
           <div class="mt-6 flex flex-wrap gap-3">
@@ -54,7 +54,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M1.5 5.25A2.25 2.25 0 0 1 3.75 3h16.5A2.25 2.25 0 0 1 22.5 5.25v13.5A2.25 2.25 0 0 1 20.25 21H3.75A2.25 2.25 0 0 1 1.5 18.75V5.25Zm2.4.75 7.35 5.145a.75.75 0 0 0 .9 0L19.5 6"/></svg>
               Oussamaguedri@gmail.com
             </a>
-            <a href="tel:+491728890424" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-slate-300 bg-white font-semibold hover:border-slate-400">
+            <a href="tel:+491637254664" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-slate-300 bg-white font-semibold hover:border-slate-400">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M2.25 6.75A4.5 4.5 0 0 1 6.75 2.25h.56c.5 0 .95.3 1.12.76l1.26 3.49a1.25 1.25 0 0 1-.36 1.37L8.2 9.05a12 12 0 0 0 6.75 6.75l1.17-1.12c.37-.35.92-.47 1.37-.36l3.49 1.26c.46.17.76.62.76 1.12v.56a4.5 4.5 0 0 1-4.5 4.5h-.38C8.69 21.76 2.24 15.31 2.24 7.13v-.38Z"/></svg>
               +49 1637254664
             </a>
