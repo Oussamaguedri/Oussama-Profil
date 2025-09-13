@@ -116,3 +116,368 @@
 
   <!-- Referenzen / Logos (auto sliding) -->
  <img width="628" height="828" alt="image" src="https://github.com/user-attachments/assets/93a76feb-56b8-432c-afd9-fcafa21e9301" />
+ <!-- Referenzen / Logos (auto sliding) -->
+  <section id="referenzen" class="py-16 md:py-24 bg-white border-y border-slate-200/70">
+<div class="max-w-6xl mx-auto px-4">
+<div class="flex items-end justify-between gap-4">
+<h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Unternehmen & Projekte</h2>
+<div class="flex items-center gap-2">
+<button id="logosPrev" aria-label="Zurück" class="p-2 rounded-lg border border-slate-200 hover:bg-slate-50">&larr;</button>
+<button id="logosNext" aria-label="Weiter" class="p-2 rounded-lg border border-slate-200 hover:bg-slate-50">&rarr;</button>
+</div>
+</div>
+<p class="mt-3 text-slate-600"></p>
+
+<div id="logoScroller" class="logo-track mt-6 overflow-x-auto flex gap-4 snap-x">
+
+  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
+    <img src="vw-logo.png" alt="Volkswagen" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">Volkswagen</span>
+  </div>
+
+  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
+    <img src="Kuhn & Partner-logo.png" alt="Kuhn &amp; Partner" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">Kuhn &amp; Partner</span>
+  </div>
+
+  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
+    <img src="excellence-logo.png" alt="Excellence AG" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">Excellence AG</span>
+  </div>
+
+  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
+    <img src="wissenswerft-logo.png" alt="Wissenswerft" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">Wissenswerft</span>
+  </div>
+
+  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
+    <img src="tunisair-logo.png" alt="Tunisair" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">Tunisair</span>
+  </div>
+  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
+    <img src="amazon-logo.png" alt="Amazon" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">Amazon</span>
+  </div>
+   <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
+    <img src="Airbus-logo.png" alt="Airbus" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">Airbus</span>
+  </div>
+  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
+    <img src="ikaria-logo.png" alt="Ikaria" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">Ikaria</span>
+  </div>
+  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
+    <img src="bs-logo.png" alt="BS-Management" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">BS-Management</span>
+  </div>
+</div>
+
+<!-- Eigene Projekt-Sektion unterhalb der Logos -->
+<div class="mt-12 grid md:grid-cols-3 gap-6">
+  <!-- Projekt 1: 3D-gedruckte Brennstoffzelle -->
+  <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
+    <img src="brennstoffzelle-cad.png" alt="3D-gedruckte Brennstoffzelle – CAD/Rendering" class="h-24 object-contain mb-4 mx-auto" />
+    <h3 class="font-bold text-lg text-center">3D-gedruckte Brennstoffzelle</h3>
+    <p class="mt-3 text-sm text-slate-600 text-center">
+      Entwicklung & Erprobung einer <strong>3D-gedruckten Brennstoffzelle</strong>; 
+      <strong>Aufhärtung von Kohlenstofffasern</strong> für Leichtbau-Autoteile. 
+      <strong>CAD-Konstruktion & Simulation</strong>, Materialtests und Übertragbarkeit auf weitere F&E-Projekte.
+    </p>
+  </div>
+
+  <!-- Projekt 2: Lean-ERP (Outlook · Excel · Power BI) -->
+  <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
+    <img src="erp-system.png" alt="Lean-ERP mit Outlook, Excel und Power BI" class="h-24 object-contain mb-4 mx-auto" />
+    <h3 class="font-bold text-lg text-center">Lean-ERP (Outlook · Excel · Power BI)</h3>
+    <p class="mt-3 text-sm text-slate-600 text-center">
+      Aufbau eines <strong>leichtgewichtigen ERP-Systems</strong> auf Microsoft-Basis: 
+      <strong>Outlook</strong> (Workflows), <strong>Excel</strong> (Stammdaten & Datenmodell), 
+      <strong>Power BI</strong> (KPI-Dashboards). Automatisierte Freigaben, Einkauf/Controlling-Schnittstellen & Reporting.
+    </p>
+  </div>
+
+  <!-- Projekt 3: Smart Supply Chain & Ramp-up -->
+  <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
+    <img src="smart-supplychain.png" alt="Smart Supply Chain – Ramp-up, FIFO/LIFO" class="h-24 object-contain mb-4 mx-auto" />
+    <h3 class="font-bold text-lg text-center">Smart Supply Chain & Ramp-up</h3>
+    <p class="mt-3 text-sm text-slate-600 text-center">
+      Planung einer <strong>Smart Supply Chain</strong> (FHT) inkl. <strong>Ramp-up-Management</strong>; 
+      <strong>FIFO/LIFO</strong> für Bestands- & Materialflussoptimierung, Takt/Kapazitätsplanung, 
+      Lieferanten-Onboarding und KPI-Monitoring (Servicegrad, OTD, WIP).
+    </p>
+  </div>
+<!-- Projekt: Triebwerk Testing -->
+<div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
+  <img src="triebwerk-testing.png" alt="Triebwerk Testing – Prüfstand & Messdaten" class="h-24 object-contain mb-4 mx-auto" />
+  <h3 class="font-bold text-lg text-center">Triebwerk Testing</h3>
+  <p class="mt-3 text-sm text-slate-600 text-center">
+    Planung, Durchführung und Dokumentation von <strong>Prüfstandsläufen</strong> für Komponenten- und Systemtests.
+    <strong>Instrumentierung &amp; Messdatenerfassung</strong> (Schwingung, Temperatur, Druck) sowie
+    <strong>Leistungsanalyse</strong> und Auswertung von Kennfeldern – gemäß relevanter <strong>Sicherheits- und Qualitätsvorgaben</strong>.
+  </p>
+</div>
+
+<!-- Projekt: Software & App Testing -->
+<div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
+  <img src="software-app-testing.png" alt="Software & App Testing – manuell und automatisiert" class="h-24 object-contain mb-4 mx-auto" />
+  <h3 class="font-bold text-lg text-center">Software &amp; App Testing</h3>
+  <p class="mt-3 text-sm text-slate-600 text-center">
+    End-to-end <strong>Teststrategie</strong> inkl. Testplänen und -fällen, <strong>manuell &amp; automatisiert</strong>
+    (Unit, Integration, UI/E2E). <strong>Device-Matrix</strong> (iOS/Android/Browsers), Bug-Tracking,
+    <strong>CI/CD-Gates</strong> und Release-Readiness mit klaren <strong>Testberichten</strong>.
+  </p>
+</div>
+
+<!-- Projekt: Business Beratung -->
+<div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
+  <img src="business-consulting.png" alt="Business Beratung – SWOT, Risiko/Chancen, Marktpräsenz" class="h-24 object-contain mb-4 mx-auto" />
+  <h3 class="font-bold text-lg text-center">Business Beratung</h3>
+  <p class="mt-3 text-sm text-slate-600 text-center">
+    Von <strong>SWOT</strong> und <strong>Risiko-/Chancenanalyse</strong> bis <strong>Go-to-Market</strong>,
+    <strong>Online- &amp; Marktpräsenz</strong>: datenbasierte, <strong>trendkonforme Methoden</strong>
+    (Wettbewerbs- &amp; Trendanalysen, Benchmarking) und <strong>KPI/OKR</strong>-gesteuerte Umsetzung
+    – auf Wunsch mit <strong>Power&nbsp;BI</strong>-Dashboards.
+  </p>
+</div>
+
+
+</div>
+</div>      <!-- schließt: <div class="max-w-6xl mx-auto px-4"> -->
+</section>  <!-- schließt: <section id="referenzen" ...> -->
+
+  <!-- Skills -->
+  <section id="skills" class="py-16 md:py-24">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Skills & Tech-Stack</h2>
+      <div class="mt-8 grid md:grid-cols-2 gap-6">
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h3 class="font-bold">Methoden & Domänen</h3>
+          <ul class="mt-3 grid grid-cols-2 gap-2 text-sm text-slate-700">
+            <li>Scrum</li>
+            <li>Kanban</li>
+              <li>PMO</li>
+            <li>VOB/A</li>
+<li>VOB/B</li>
+<li>HOAI</li>
+
+            <li>Ausschreibung</li>
+           <li>Vergabe</li>
+            <li>Budgetierung</li>
+            <li>Forecast</li>
+            <li>Procurement</li>
+            <li>Lieferanten</li>
+            <li>Prozessmodellierung</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h3 class="font-bold">Tools & Software</h3>
+          <ul class="mt-3 grid grid-cols-2 gap-2 text-sm text-slate-700">
+            <li>MS Office</li>
+            <li>Power BI</li>
+            <li>SAP S/4HANA</li>
+            <li>iTWO</li> 
+            <li>Thinkproject</li>
+            <li>BIM</li>
+            <li>Jira</li>
+            <li>Confluence</li>
+            <li>WordPress</li>
+            <li> Xcode</li>
+            <li>Matlab</li>
+            <li> SolidWorks</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+  <h3 class="font-bold">Sprachen</h3>
+  <ul class="mt-2 list-disc list-inside text-sm text-slate-700 space-y-1">
+    <li>Deutsch (verhandlungssicher)</li>
+    <li>Englisch (fließend)</li>
+    <li>Französisch & Arabisch (Muttersprache)</li>
+    <li>Russisch & Spanisch (Grundkenntnisse)</li>
+  </ul>
+</div>
+  
+
+  <!-- Kontakt -->
+  <section id="kontakt" class="py-16 md:py-24 bg-white border-t border-slate-200">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid lg:grid-cols-3 gap-10">
+        <div class="lg:col-span-2">
+          <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Kontakt</h2>
+          <p class="mt-3 text-slate-600">Lassen Sie uns Ihr Projekt besprechen. Ich melde mich zeitnah zurück.</p>
+          <form class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4" onsubmit="handleSubmit(event)">
+            <input required name="name" placeholder="Ihr Name" class="w-full rounded-xl border border-slate-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+            <input required name="email" type="email" placeholder="Ihre E-Mail" class="w-full rounded-xl border border-slate-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-400" />
+            <input name="firma" placeholder="Firma (optional)" class="w-full rounded-xl border border-slate-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-400 md:col-span-2" />
+            <textarea required name="nachricht" placeholder="Kurz Ihr Anliegen" rows="4" class="w-full rounded-xl border border-slate-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-400 md:col-span-2"></textarea>
+            <button class="inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-blue-600 text-white font-semibold shadow hover:bg-blue-700 md:col-span-2">Nachricht senden</button>
+          </form>
+          <p id="formNote" class="mt-3 text-xs text-slate-500">Hinweis: Dieses Kontaktformular verschickt keine E-Mails direkt. Stattdessen öffnet es Ihr E-Mail-Programm mit einer vorbereiteten Nachricht.</p>
+        </div>
+        <aside class="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-sm">
+          <h3 class="font-bold">Direktkontakt</h3>
+          <ul class="mt-3 text-sm space-y-1 pl-0 list-none">
+  <li><strong>E-Mail:</strong> <a class="text-blue-700 underline" href="mailto:karim.belhajali@icloud.com">karim.belhajali@icloud.com</a></li>
+  <li><strong>Telefon:</strong> <a class="text-blue-700 underline" href="tel:+491728890424">+49 172 8890424</a></li>
+  <li><strong>Adresse:</strong> Hannover </li>
+  <li><strong>Verfügbarkeit:</strong> ab sofort</li>
+</ul>
+        
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- Chatbot: Tidio -->
+  <script src="//code.tidio.co/6setpokwm863fzae0rw2llyvz9acescd.js" async></script>
+<!-- === FUN BANNER + MINI GAME === -->
+<section id="fun" style="max-width:1250px;margin:40px auto;padding:0 16px;">
+  <!-- Banner -->
+  <div style="background:linear-gradient(90deg,#0059c9,#0083ff);color:#fff;
+              border-radius:14px;padding:20px;text-align:center;margin-bottom:20px">
+    <h2 style="margin:0;font-size:20px;font-weight:600">
+      Wartezeit? Kein Stress! 🎮
+<br/>
+     Zock’ ne Runde, bis ich antworte 🚀
+    </h2>
+  </div>
+
+  <!-- Mini-Game -->
+  <div style="background:#121a24;border:1px solid #223140;border-radius:14px;padding:16px;">
+    <h3 style="margin:0 0 10px;font-size:16px;color:#0083ff">Mini-Game: Runner</h3>
+    <p style="color:#9fb0c3;font-size:12px;margin:0 0 10px">
+      Steuerung: <b>Leertaste</b>/<b>↑</b> oder <b>Klick/Tap</b> ins Spielfeld. <b>P</b> für Pause.
+    </p>
+    <canvas id="runnerCanvas" width="900" height="200"
+      style="width:100%;height:auto;display:block;background:#0e141b;border:2px solid #0059c9;border-radius:10px;touch-action:none"></canvas>
+
+    <!-- On-Screen Controls -->
+    <div style="display:flex;gap:10px;justify-content:center;margin-top:10px;flex-wrap:wrap">
+      <button id="btnJump"
+        style="padding:10px 16px;border-radius:10px;border:none;
+               background:linear-gradient(90deg,#0059c9,#0083ff);
+               color:#fff;cursor:pointer;font-weight:600">
+        ⬆ Jump
+      </button>
+      <button id="btnPause"
+        style="padding:10px 16px;border-radius:10px;border:none;
+               background:linear-gradient(90deg,#0059c9,#0083ff);
+               color:#fff;cursor:pointer;font-weight:600">
+        ⏸ Pause
+      </button>
+    </div>
+  </div>
+</section>
+
+<script>
+(()=>{ // Runner Game
+  const cvs=document.getElementById('runnerCanvas'),ctx=cvs.getContext('2d');
+  const btnJump=document.getElementById('btnJump'),btnPause=document.getElementById('btnPause');
+  const G={groundY:160,speed:6,gravity:0.7,jumpV:-12.5,t:0,paused:false,started:false,
+           score:0,hi:Number(localStorage.getItem('runner_hi')||0),
+           obstacles:[],particles:[],cloudT:0,cloudList:[],nextObs:40};
+  const hero={x:50,y:130,w:28,h:30,vy:0,onGround:true,blink:0};
+  const rnd=(a,b)=>Math.random()*(b-a)+a;
+  function reset(){G.speed=6;G.score=0;G.t=0;G.obstacles.length=0;G.particles.length=0;G.cloudList.length=0;
+    hero.x=50;hero.y=G.groundY-hero.h;hero.vy=0;hero.onGround=true;G.started=false;G.nextObs=40;
+    spawnClouds(6);}
+  function spawnObstacle(){const h=Math.round(rnd(20,45)),w=Math.round(rnd(14,26)),gapBoost=Math.max(0,(G.speed-6)*6);
+    G.obstacles.push({x:cvs.width+20,y:G.groundY-h,w,h,hit:false,type:(Math.random()<0.2?'double':'single')});
+    G.nextObs=G.t+Math.round(rnd(50-gapBoost,95-gapBoost));}
+  function spawnClouds(n=1){for(let i=0;i<n;i++){G.cloudList.push({x:rnd(0,cvs.width),y:rnd(10,60),s:rnd(0.3,0.8)});}}
+  function spawnDust(x,y,count=4){for(let i=0;i<count;i++){G.particles.push({x,y,vx:rnd(-1,1),vy:rnd(-2,-0.5),life:rnd(12,22)});}}
+  function jump(){if(!G.started){G.started=true;return;}if(hero.onGround){hero.vy=G.jumpV;hero.onGround=false;spawnDust(hero.x+hero.w/2,hero.y+hero.h,6);}}
+  function togglePause(){G.paused=!G.paused;}
+  addEventListener('keydown',e=>{if(e.code==='Space'||e.code==='ArrowUp'){e.preventDefault();jump();}if(e.key==='p'||e.key==='P'){togglePause();}},{passive:false});
+  cvs.addEventListener('pointerdown',jump);btnJump.addEventListener('click',jump);btnPause.addEventListener('click',togglePause);
+  const collide=(a,b)=>!(a.x+a.w<b.x||a.x>b.x+b.w||a.y+a.h<b.y||a.y>b.y+b.h);
+  function drawGround(){ctx.strokeStyle='#223140';ctx.beginPath();ctx.moveTo(0,G.groundY+0.5);ctx.lineTo(cvs.width,G.groundY+0.5);ctx.stroke();}
+  function drawHero(){ctx.fillStyle='#0083ff';ctx.fillRect(hero.x,hero.y,hero.w,hero.h);
+    const phase=Math.sin(G.t*0.3);ctx.fillStyle='#4da9ff';
+    ctx.fillRect(hero.x+4,hero.y+hero.h-6,6,6+phase*2);
+    ctx.fillRect(hero.x+hero.w-10,hero.y+hero.h-6,6,6-phase*2);
+    hero.blink=(hero.blink+1)%120;const eyeOpen=hero.blink<110;
+    ctx.fillStyle=eyeOpen?'#0b0f14':'#121a24';
+    ctx.fillRect(hero.x+8,hero.y+8,3,eyeOpen?3:1);
+    ctx.fillRect(hero.x+hero.w-12,hero.y+8,3,eyeOpen?3:1);}
+  function drawObstacle(o){ctx.fillStyle='#2ea043';ctx.fillRect(o.x,o.y,o.w,o.h);}
+  function drawCloud(c){ctx.fillStyle='#1a2230';ctx.beginPath();ctx.arc(c.x,c.y,12*c.s,0,Math.PI*2);ctx.fill();}
+  function drawHUD(){ctx.fillStyle='#9fb0c3';ctx.font='12px Inter';ctx.fillText(Score: ${G.score},12,16);ctx.fillText(High: ${G.hi},12,32);}
+  function step(){if(!G.paused){G.t++;if(G.t%300===0)G.speed=Math.min(G.speed+0.35,14);
+    if(G.cloudT--<=0){spawnClouds(1);G.cloudT=Math.round(rnd(80,160));}
+    if(G.t>=G.nextObs&&G.started)spawnObstacle();
+    if(!hero.onGround){hero.vy+=G.gravity;hero.y+=hero.vy;
+      if(hero.y>=G.groundY-hero.h){hero.y=G.groundY-hero.h;hero.vy=0;hero.onGround=true;spawnDust(hero.x+hero.w/2,hero.y+hero.h,4);}}
+    for(let i=G.obstacles.length-1;i>=0;i--){const o=G.obstacles[i];o.x-=G.speed;if(o.x+o.w<0){G.obstacles.splice(i,1);continue;}
+      if(collide(hero,o)){hero.vy=-8;hero.onGround=false;if(G.score>G.hi){G.hi=G.score;localStorage.setItem('runner_hi',String(G.hi));}reset();break;}
+      if(!o.hit&&o.x+o.w<hero.x){o.hit=true;G.score++;}}
+    for(let i=G.particles.length-1;i>=0;i--){const p=G.particles[i];p.x+=p.vx;p.y+=p.vy;p.vy+=0.15;if(--p.life<=0)G.particles.splice(i,1);}}
+    ctx.clearRect(0,0,cvs.width,cvs.height);
+    G.cloudList.forEach(drawCloud);drawGround();G.obstacles.forEach(drawObstacle);
+    ctx.fillStyle='#415a77';G.particles.forEach(p=>ctx.fillRect(p.x,p.y,2,2));
+    drawHero();drawHUD();requestAnimationFrame(step);}
+  document.addEventListener('visibilitychange',()=>{G.paused=document.hidden||G.paused;});
+  reset();step();
+})();
+</script>
+<!-- === / FUN BANNER + MINI GAME === -->
+<!-- Footer -->
+  <footer class="py-10">
+    <div class="max-w-6xl mx-auto px-4 text-sm text-slate-500 flex flex-col md:flex-row items-center justify-between gap-3">
+      <p>&copy; <span id="year"></span> Karim Bel Hadj Ali. Alle Rechte vorbehalten.</p>
+      <div class="flex items-center gap-3">
+        <a class="hover:text-slate-700" href="#top">Impressum (Platzhalter)</a>
+        <span aria-hidden="true">·</span>
+        <a class="hover:text-slate-700" href="#top">Datenschutz (Platzhalter)</a>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Social-Logos nebeneinander (nur HTML mit Inline-Styles) -->
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; margin-top:20px;">
+  <a href="https://de.linkedin.com/in/karim-bel-hadj-ali-579b10371/en" target="_blank" rel="noopener" title="LinkedIn">
+    <img src="linkedin-icon.png" alt="LinkedIn" style="height:50px; width:auto; display:block; object-fit:contain;">
+  </a>
+  <a href="https://www.xing.com/profile/Karim_BelHadjAli017074/web_profiles" target="_blank" rel="noopener" title="Xing">
+    <img src="xing-icon.png" alt="Xing" style="height:50px; width:auto; display:block; object-fit:contain;">
+  </a>
+</div>
+
+
+  <script>
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Contact form: open mailto with prefill
+    function handleSubmit(e) {
+      e.preventDefault();
+      const data = Object.fromEntries(new FormData(e.target).entries());
+      const subject = encodeURIComponent('Projektanfrage – ' + (data.name || '')); 
+      const body = encodeURIComponent(
+        Hallo Karim,\n\n +
+        mein Name: ${data.name || ''}\n +
+        E-Mail: ${data.email || ''}\n +
+        Firma: ${data.firma || ''}\n\n +
+        Anliegen: ${data.nachricht || ''}\n\n +
+        Beste Grüße
+      );
+      window.location.href = mailto:karim.belhajali@icloud.com?subject=${subject}&body=${body};
+    }
+
+    // Logo scroller buttons + auto slide
+    const scroller = document.getElementById('logoScroller');
+    const prevBtn = document.getElementById('logosPrev');
+    const nextBtn = document.getElementById('logosNext');
+
+    function slideBy(dir=1){
+      scroller.scrollBy({ left: 220 * dir, behavior: 'smooth' });
+    }
+    prevBtn.addEventListener('click', () => slideBy(-1));
+    nextBtn.addEventListener('click', () => slideBy(1));
+
+    // Auto slide & loop perception
+    let auto = setInterval(()=>slideBy(1), 2500);
+    scroller.addEventListener('mouseenter', ()=> clearInterval(auto));
+    scroller.addEventListener('mouseleave', ()=> auto = setInterval(()=>slideBy(1), 2500));
+  </script>
