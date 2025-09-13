@@ -112,7 +112,6 @@
             <li>Dokumentation & Nachverfolgung von Produktionsdaten</li>
           </ul>
         </div>
-      </div>
   </section>
 
   <!-- Referenzen / Logos (auto sliding) -->
