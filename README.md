@@ -139,8 +139,8 @@
   </div>
 
   <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
-    <img src="excellence-logo.png" alt="Excellence AG" class="h-12 object-contain mb-2" />
-    <span class="text-sm font-medium text-slate-700">Excellence AG</span>
+    <img src="ilfa-logo.png" alt="ILFA GmbH" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">IlFA GmbH </span>
   </div>
 
   <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
