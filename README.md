@@ -74,36 +74,39 @@
     </div>
   </section>
 
-  <!-- Leistungen -->
+<!-- Leistungen -->
   <section id="leistungen" class="py-16 md:py-24">
     <div class="max-w-6xl mx-auto px-4">
       <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Leistungen</h2>
-      <p class="mt-3 text-slate-600 max-w-3xl">Ich übernehme die vollständige Verantwortung für den gesamten Prozess von der Anforderungsanalyse über die Ausschreibung und Beschaffung bis zur Umsetzung und Nachverfolgung.Transparent, wirkungsvoll und skalierbar.</p>
+      <p class="mt-3 text-slate-600 max-w-3xl">Ich übernehme End-to-End Verantwortung von der Anforderungsaufnahme über Ausschreibung/Procurement bis zur Umsetzung und dem Controlling. Transparent, wirksam und skalierbar.</p>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
         <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-          <h3 class="font-bold text-lg">Konstruktion & Entwicklung</h3>
+          <h3 class="font-bold text-lg">Projektmanagement</h3>
           <ul class="mt-3 space-y-2 text-sm text-slate-700 list-disc list-inside">
-            <li>CAD-Design (CATIA V5, Solid Edge)</li>
-            <li>Zeichnungserstellung nach Normen</li>
-            <li>Toleranzanalysen & Baugruppenuntersuchungen</li>
+            <li>PMO, Roadmaps, Sprint-Planung</li>
+            <li>Stakeholder- & Ressourcensteuerung</li>
+            <li>Qualitätssicherung & Abnahme</li>
           </ul>
         </div>
         <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-          <h3 class="font-bold text-lg">Produktion & Fertigung</h3>
+          <h3 class="font-bold text-lg">Supply Chain Management</h3>
           <ul class="mt-3 space-y-2 text-sm text-slate-700 list-disc list-inside">
-            <li>Unterstützung bei Produktionsprozessen (BMW, VW, ILFA)</li>
-            <li>Prototypenbau & Leiterplattenfertigung</li>
-            <li>Maschinenbedienung, Wartung & Kalibrierung</li>
-          </ul>
-            </div>
-        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-          <h3 class="font-bold text-lg">Qualität & Prozessoptimierung</h3>
-          <ul class="mt-3 space-y-2 text-sm text-slate-700 list-disc list-inside">
-            <li>Qualitätskontrolle & Prüfungen (Härteöfen, Fertigungsprozesse)</li>
-            <li>Identifikation von Fehlerquellen & Prozessverbesserung</li>
-            <li>Dokumentation & Nachverfolgung von Produktionsdaten</li>
+            <li>Bedarf, Beschaffung, Lieferanten</li>
+            <li>Logistik- & Lagerkonzepte</li>
+            <li>Prozessmodellierung & KPI</li>
           </ul>
         </div>
-  </section>
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
+          <h3 class="font-bold text-lg">Controlling & Verträge</h3>
+          <ul class="mt-3 space-y-2 text-sm text-slate-700 list-disc list-inside">
+            <li>Budgetierung & Forecasts</li>
+            <li>VOB/HOAI, Preisspiegel, Vergabe</li>
+            <li>Nachtragsmanagement</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Referenzen / Logos (auto sliding) -->
  <img width="628" height="828" alt="image" src="https://github.com/user-attachments/assets/93a76feb-56b8-432c-afd9-fcafa21e9301" />
