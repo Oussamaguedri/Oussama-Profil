@@ -79,15 +79,6 @@
     <div class="max-w-6xl mx-auto px-4">
       <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Leistungen</h2>
       <p class="mt-3 text-slate-600 max-w-3xl">Ich übernehme die vollständige Verantwortung für den gesamten Prozess von der Anforderungsanalyse über die Ausschreibung und Beschaffung bis zur Umsetzung und Nachverfolgung.Transparent, wirkungsvoll und skalierbar.</p>
-      <div class="mt-8 grid md:grid-cols-3 gap-6">
-        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-          <h3 class="font-bold text-lg">Simulation & Prozessauslegung</h3>
-          <ul class="mt-3 space-y-2 text-sm text-slate-700 list-disc list-inside">
-            <li>FEM-Analysen zur Material- und Prozessbewertung</li>
-            <li>Automatisierung von Simulationen (Python, Matlab)</li>
-            <li>Vergleich von manuellen und digitalen Prozessen</li>
-          </ul>
-        </div>
         <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
           <h3 class="font-bold text-lg">Konstruktion & Entwicklung</h3>
           <ul class="mt-3 space-y-2 text-sm text-slate-700 list-disc list-inside">
