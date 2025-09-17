@@ -239,7 +239,7 @@
 </div>      <!-- schließt: <div class="max-w-6xl mx-auto px-4"> -->
 </section>  <!-- schließt: <section id="referenzen" ...> -->
 
-  <!-- Skills -->
+<!-- Skills -->
   <section id="skills" class="py-16 md:py-24">
     <div class="max-w-6xl mx-auto px-4">
       <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Skills & Tech-Stack</h2>
@@ -474,4 +474,4 @@
     let auto = setInterval(()=>slideBy(1), 2500);
     scroller.addEventListener('mouseenter', ()=> clearInterval(auto));
     scroller.addEventListener('mouseleave', ()=> auto = setInterval(()=>slideBy(1), 2500));
-  </script>
+  </script>
