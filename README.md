@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Oussama Guedri – Maschinenbauingenieur </title>
+  <title>Oussama Guedri – Maschinenbauingenieur & Fertigung  /  Qualitätsingenieur</title>
   <meta name="description" content="Maschinenbauingenieur. Verfügbar ab sofort. Standort: Hannover – deutschland, remote/onsite." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -78,18 +78,18 @@
   <section id="leistungen" class="py-16 md:py-24">
     <div class="max-w-6xl mx-auto px-4">
       <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Leistungen</h2>
-      <p class="mt-3 text-slate-600 max-w-3xl">Ich übernehme End-to-End Verantwortung von der Anforderungsaufnahme über Ausschreibung/Procurement bis zur Umsetzung und dem Controlling. Transparent, wirksam und skalierbar.</p>
+      <p class="mt-3 text-slate-600 max-w-3xl">Ich übernehme die vollständige Verantwortung für den gesamten Prozess von der Anforderungsanalyse über die Auschreibung und Beschaffungbis Umsetzung und Nachverfolgung. Transparent, wirksam und skalierbar.</p>
       <div class="mt-8 grid md:grid-cols-3 gap-6">
         <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-          <h3 class="font-bold text-lg">Projektmanagement</h3>
+          <h3 class="font-bold text-lg">Fertigung & Produktion </h3>
           <ul class="mt-3 space-y-2 text-sm text-slate-700 list-disc list-inside">
-            <li>PMO, Roadmaps, Sprint-Planung</li>
-            <li>Stakeholder- & Ressourcensteuerung</li>
-            <li>Qualitätssicherung & Abnahme</li>
+            <li>Optimierung von Fertigungsabläufen</li>
+            <li>Konstruktion & Betriebsmittelentwicklung </li>
+            <li>Digitale Simulation & Automatisierung</li>
           </ul>
         </div>
         <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-          <h3 class="font-bold text-lg">Supply Chain Management</h3>
+          <h3 class="font-bold text-lg">Produktionspalnung & Effizienz</h3>
           <ul class="mt-3 space-y-2 text-sm text-slate-700 list-disc list-inside">
             <li>Bedarf, Beschaffung, Lieferanten</li>
             <li>Logistik- & Lagerkonzepte</li>
@@ -97,11 +97,11 @@
           </ul>
         </div>
         <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-          <h3 class="font-bold text-lg">Controlling & Verträge</h3>
+          <h3 class="font-bold text-lg">Qualitätsmanagement</h3>
           <ul class="mt-3 space-y-2 text-sm text-slate-700 list-disc list-inside">
-            <li>Budgetierung & Forecasts</li>
-            <li>VOB/HOAI, Preisspiegel, Vergabe</li>
-            <li>Nachtragsmanagement</li>
+            <li>Qualitätsmethoden (FMEA, PPAP)</li>
+            <li>Toleranzanalyse & Prüfplanung </li>
+            <li>ISO 9001 & Prozessverbesserung</li>
           </ul>
         </div>
       </div>
@@ -130,36 +130,25 @@
   </div>
 
   <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
-    <img src="Kuhn & Partner-logo.png" alt="Kuhn &amp; Partner" class="h-12 object-contain mb-2" />
-    <span class="text-sm font-medium text-slate-700">Kuhn &amp; Partner</span>
+    <img src="bmw-logo.png" alt="BMW" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">BMW</span>
   </div>
 
   <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
-    <img src="excellence-logo.png" alt="Excellence AG" class="h-12 object-contain mb-2" />
-    <span class="text-sm font-medium text-slate-700">Excellence AG</span>
+    <img src="ilfa-logo.png" alt="ILFA GmbH" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">ILFA GmbH</span>
   </div>
 
   <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
-    <img src="wissenswerft-logo.png" alt="Wissenswerft" class="h-12 object-contain mb-2" />
-    <span class="text-sm font-medium text-slate-700">Wissenswerft</span>
+    <img src="hanomag-logo.png" alt="Hanomag" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">Hanomag</span>
   </div>
 
   <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
-    <img src="tunisair-logo.png" alt="Tunisair" class="h-12 object-contain mb-2" />
-    <span class="text-sm font-medium text-slate-700">Tunisair</span>
+    <img src="iph-logo.png" alt="IPH" class="h-12 object-contain mb-2" />
+    <span class="text-sm font-medium text-slate-700">IPH</span>
   </div>
-  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
-    <img src="amazon-logo.png" alt="Amazon" class="h-12 object-contain mb-2" />
-    <span class="text-sm font-medium text-slate-700">Amazon</span>
-  </div>
-   <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
-    <img src="Airbus-logo.png" alt="Airbus" class="h-12 object-contain mb-2" />
-    <span class="text-sm font-medium text-slate-700">Airbus</span>
-  </div>
-  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
-    <img src="ikaria-logo.png" alt="Ikaria" class="h-12 object-contain mb-2" />
-    <span class="text-sm font-medium text-slate-700">Ikaria</span>
-  </div>
+
   <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
     <img src="bs-logo.png" alt="BS-Management" class="h-12 object-contain mb-2" />
     <span class="text-sm font-medium text-slate-700">BS-Management</span>
@@ -247,12 +236,12 @@
         <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
           <h3 class="font-bold">Methoden & Domänen</h3>
           <ul class="mt-3 grid grid-cols-2 gap-2 text-sm text-slate-700">
-            <li>Scrum</li>
-            <li>Kanban</li>
-              <li>PMO</li>
-            <li>VOB/A</li>
-<li>VOB/B</li>
-<li>HOAI</li>
+            <li>Ansys</li>
+            <li>CATIA V5</li>
+              <li>Python</li>
+            <li>Qualitätsmanagement (ISO 9001, VDA 6.3)</li>
+<li>Simufact software</li>
+<li>SAP Software</li>
 
             <li>Ausschreibung</li>
            <li>Vergabe</li>
