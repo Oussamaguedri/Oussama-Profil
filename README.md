@@ -313,7 +313,7 @@
 
   
   <!-- Chatbot: Tidio -->
-  <script src="//code.tidio.co/6setpokwm863fzae0rw2llyvz9acescd.js" async></script>
+  <script src="//code.tidio.co/vacgswpiihdooa9fgrxkwcybjf4r53sk.js" async></script>
 <!-- === FUN BANNER + MINI GAME === -->
 <section id="fun" style="max-width:1250px;margin:40px auto;padding:0 16px;">
   <!-- Banner -->
