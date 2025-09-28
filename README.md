@@ -300,8 +300,8 @@
         <aside class="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-sm">
           <h3 class="font-bold">Direktkontakt</h3>
           <ul class="mt-3 text-sm space-y-1 pl-0 list-none">
-  <li><strong>E-Mail:</strong> <a class="text-blue-700 underline" href="mailto:karim.belhajali@icloud.com">karim.belhajali@icloud.com</a></li>
-  <li><strong>Telefon:</strong> <a class="text-blue-700 underline" href="tel:+491728890424">+49 172 8890424</a></li>
+  <li><strong>E-Mail:</strong> <a class="text-blue-700 underline" href="mailto:oussamaguedri@gmail.com">Oussamaguedri@gmail.com</a></li>
+  <li><strong>Telefon:</strong> <a class="text-blue-700 underline" href="tel:+491637254664">+491637254664</a></li>
   <li><strong>Adresse:</strong> Hannover </li>
   <li><strong>Verfügbarkeit:</strong> ab sofort</li>
 </ul>
@@ -408,7 +408,7 @@
 <!-- Footer -->
   <footer class="py-10">
     <div class="max-w-6xl mx-auto px-4 text-sm text-slate-500 flex flex-col md:flex-row items-center justify-between gap-3">
-      <p>&copy; <span id="year"></span> Karim Bel Hadj Ali. Alle Rechte vorbehalten.</p>
+      <p>&copy; <span id="year"></span> Oussama Guedri. Alle Rechte vorbehalten.</p>
       <div class="flex items-center gap-3">
         <a class="hover:text-slate-700" href="#top">Impressum (Platzhalter)</a>
         <span aria-hidden="true">·</span>
@@ -419,10 +419,10 @@
   
   <!-- Social-Logos nebeneinander (nur HTML mit Inline-Styles) -->
 <div style="display:flex; justify-content:center; align-items:center; gap:16px; margin-top:20px;">
-  <a href="https://de.linkedin.com/in/karim-bel-hadj-ali-579b10371/en" target="_blank" rel="noopener" title="LinkedIn">
+  <a href="https://de.linkedin.com/in/oussama-guedri-47551783/en" target="_blank" rel="noopener" title="LinkedIn">
     <img src="linkedin-icon.png" alt="LinkedIn" style="height:50px; width:auto; display:block; object-fit:contain;">
   </a>
-  <a href="https://www.xing.com/profile/Karim_BelHadjAli017074/web_profiles" target="_blank" rel="noopener" title="Xing">
+  <a href="https://www.xing.com/profile/Guedri_Oussama/web_profiles" target="_blank" rel="noopener" title="Xing">
     <img src="xing-icon.png" alt="Xing" style="height:50px; width:auto; display:block; object-fit:contain;">
   </a>
 </div>
@@ -438,14 +438,14 @@
       const data = Object.fromEntries(new FormData(e.target).entries());
       const subject = encodeURIComponent('Projektanfrage – ' + (data.name || '')); 
       const body = encodeURIComponent(
-        Hallo Karim,\n\n +
+        Hallo Oussama,\n\n +
         mein Name: ${data.name || ''}\n +
         E-Mail: ${data.email || ''}\n +
         Firma: ${data.firma || ''}\n\n +
         Anliegen: ${data.nachricht || ''}\n\n +
         Beste Grüße
       );
-      window.location.href = mailto:karim.belhajali@icloud.com?subject=${subject}&body=${body};
+      window.location.href = mailto:oussamaguedri@gmail.com?subject=${subject}&body=${body};
     }
 
     // Logo scroller buttons + auto slide
