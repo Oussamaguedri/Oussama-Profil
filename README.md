@@ -189,39 +189,12 @@
       Lieferanten-Onboarding und KPI-Monitoring (Servicegrad, OTD, WIP).
     </p>
   </div>
-<!-- Projekt: Triebwerk Testing -->
-<div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-  <img src="triebwerk-testing.png" alt="Triebwerk Testing – Prüfstand & Messdaten" class="h-24 object-contain mb-4 mx-auto" />
-  <h3 class="font-bold text-lg text-center">Triebwerk Testing</h3>
-  <p class="mt-3 text-sm text-slate-600 text-center">
-    Planung, Durchführung und Dokumentation von <strong>Prüfstandsläufen</strong> für Komponenten- und Systemtests.
-    <strong>Instrumentierung &amp; Messdatenerfassung</strong> (Schwingung, Temperatur, Druck) sowie
-    <strong>Leistungsanalyse</strong> und Auswertung von Kennfeldern – gemäß relevanter <strong>Sicherheits- und Qualitätsvorgaben</strong>.
-  </p>
+
 </div>
 
-<!-- Projekt: Software & App Testing -->
-<div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-  <img src="software-app-testing.png" alt="Software & App Testing – manuell und automatisiert" class="h-24 object-contain mb-4 mx-auto" />
-  <h3 class="font-bold text-lg text-center">Software &amp; App Testing</h3>
-  <p class="mt-3 text-sm text-slate-600 text-center">
-    End-to-end <strong>Teststrategie</strong> inkl. Testplänen und -fällen, <strong>manuell &amp; automatisiert</strong>
-    (Unit, Integration, UI/E2E). <strong>Device-Matrix</strong> (iOS/Android/Browsers), Bug-Tracking,
-    <strong>CI/CD-Gates</strong> und Release-Readiness mit klaren <strong>Testberichten</strong>.
-  </p>
-</div>
 
-<!-- Projekt: Business Beratung -->
-<div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-  <img src="business-consulting.png" alt="Business Beratung – SWOT, Risiko/Chancen, Marktpräsenz" class="h-24 object-contain mb-4 mx-auto" />
-  <h3 class="font-bold text-lg text-center">Business Beratung</h3>
-  <p class="mt-3 text-sm text-slate-600 text-center">
-    Von <strong>SWOT</strong> und <strong>Risiko-/Chancenanalyse</strong> bis <strong>Go-to-Market</strong>,
-    <strong>Online- &amp; Marktpräsenz</strong>: datenbasierte, <strong>trendkonforme Methoden</strong>
-    (Wettbewerbs- &amp; Trendanalysen, Benchmarking) und <strong>KPI/OKR</strong>-gesteuerte Umsetzung
-    – auf Wunsch mit <strong>Power&nbsp;BI</strong>-Dashboards.
-  </p>
-</div>
+
+
 
 
 </div>
