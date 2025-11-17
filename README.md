@@ -1,437 +1,223 @@
+<!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Oussama Guedri – Maschinenbauingenieur & Fertigung  /  Qualitätsingenieur</title>
-  <meta name="description" content="Maschinenbauingenieur. Verfügbar ab sofort. Standort: Hannover – deutschland, remote/onsite." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    html { scroll-behavior: smooth; }
-    body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji'; }
-    .ring-gradient { box-shadow: 0 0 0 3px rgba(59,130,246,.25); }
-    .logo-track { scroll-snap-type: x mandatory; }
-    .logo-card { scroll-snap-align: start; }
-    .hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,255,255,.85),rgba(255,255,255,.9));}
-  </style>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Oussama Guedri – Maschinenbau | Fertigung | Qualität</title>
+<meta name="description" content="Maschinenbauingenieur mit Erfahrung in Fertigung, Simulation, Prozessoptimierung & Qualitätsmanagement. Standort Hannover. Remote/Onsite.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+html { scroll-behavior: smooth; }
+body { font-family: "Inter", sans-serif; }
+[data-reveal] { opacity:0; transform:translateY(20px); transition:all .8s ease; }
+.reveal-visible { opacity:1 !important; transform:translateY(0) !important; }
+
+/* Hero Animations */
+@keyframes float {0%{transform:translateY(0)}50%{transform:translateY(-10px)}100%{transform:translateY(0)}}
+.float { animation: float 5s ease-in-out infinite; }
+
+/* Button Components */
+.btn-primary { @apply inline-flex items-center px-5 py-3 rounded-xl bg-blue-600 text-white font-semibold shadow hover:bg-blue-700 transition; }
+.btn-secondary { @apply inline-flex items-center px-5 py-3 rounded-xl border border-slate-300 font-semibold hover:border-blue-400 transition; }
+
+/* Dark mode */
+.dark body { background:#0f1115; color:#e6e6e6; }
+.dark .card { background:#1b1e24 !important; border-color:#2d313a !important; }
+</style>
 </head>
+
 <body class="bg-slate-50 text-slate-900">
-  <!-- Header -->
-  <header class="sticky top-0 z-40 backdrop-blur bg-white/70 border-b border-slate-200/60">
-    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="#top" class="flex items-center">
-  <img src="Oussama. Guedri Logo .PNG " alt="Oussama Guedri logo" class="h-10 w-auto" />
-</a>
 
-      <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
-        <a href="#leistungen" class="hover:text-blue-600">Leistungen</a>
-        <a href="#referenzen" class="hover:text-blue-600">Referenzen</a>
-        <a href="#skills" class="hover:text-blue-600">Skills</a>
-        <a href="#kontakt" class="hover:text-blue-600">Kontakt</a>
-      </nav>
-      <a href="#kontakt" class="inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-blue-600 text-white text-sm font-semibold shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400">
-        Jetzt anfragen
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M13.5 4.5h6a.75.75 0 0 1 .75.75v6a.75.75 0 0 1-1.5 0V6.31l-8.72 8.72a.75.75 0 1 1-1.06-1.06l8.72-8.72h-4.94a.75.75 0 0 1 0-1.5Z"/></svg>
-      </a>
-    </div>
-  </header>
+<!-- ========== NAVIGATION ========== -->
+<header class="sticky top-0 bg-white/80 backdrop-blur border-b border-slate-200 z-40">
+  <div class="max-w-6xl mx-auto flex justify-between items-center px-4 py-3">
+    <a href="#top" class="font-bold text-lg">Oussama Guedri</a>
+    <nav class="hidden md:flex gap-6 text-sm font-medium">
+      <a href="#leistungen">Leistungen</a>
+      <a href="#referenzen">Referenzen</a>
+      <a href="#skills">Skills</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <button id="toggleDark" class="text-sm px-3 py-1 border rounded-lg">🌓</button>
+  </div>
+</header>
 
-  <!-- Hero with consulting background -->
-  <section id="top" class="relative overflow-hidden">
-    <div class="absolute inset-0 bg-center bg-cover" style="background-image:url('consulting-bg.jpg')"></div>
-    <div class="hero-overlay"></div>
-    <div class="max-w-6xl mx-auto px-4 py-16 md:py-24 relative">
-      <div class="grid lg:grid-cols-2 gap-10 items-center">
-        <div>
-          <span class="inline-block mb-4 text-xs font-semibold tracking-wider uppercase text-blue-700 bg-blue-100 rounded-full px-3 py-1">Verfügbar ab sofort</span>
-          <h1 class="text-3xl md:text-5xl font-extrabold leading-tight tracking-tight">Oussama Guedri<br><span class="text-blue-700"> Maschinenbauingenieur & Fertigung  /  Qualitätsingenieur  </span></h1>
-          <p class="mt-5 text-slate-700 max-w-2xl">Industrieerfahrung in Antriebstechnik, Fertigung und Produktion. Fokus auf Simulation mit Schwerpunkt auf Konstruktion, Prozessoptimierung und Qualitätssicherung . Deutschland – remote oder vor Ort.</p>
-          <p class="mt-3 text-slate-800 font-semibold">Teilnahme in verschiedenen Branchen.</p>
-          <div class="mt-6 flex flex-wrap gap-3">
-            <a href="mailto:oussamaguedri@gmail.com" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 text-white font-semibold shadow hover:bg-black">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M1.5 5.25A2.25 2.25 0 0 1 3.75 3h16.5A2.25 2.25 0 0 1 22.5 5.25v13.5A2.25 2.25 0 0 1 20.25 21H3.75A2.25 2.25 0 0 1 1.5 18.75V5.25Zm2.4.75 7.35 5.145a.75.75 0 0 0 .9 0L19.5 6"/></svg>
-              Oussamaguedri@gmail.com
-            </a>
-            <a href="tel:+491637254664" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-slate-300 bg-white font-semibold hover:border-slate-400">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M2.25 6.75A4.5 4.5 0 0 1 6.75 2.25h.56c.5 0 .95.3 1.12.76l1.26 3.49a1.25 1.25 0 0 1-.36 1.37L8.2 9.05a12 12 0 0 0 6.75 6.75l1.17-1.12c.37-.35.92-.47 1.37-.36l3.49 1.26c.46.17.76.62.76 1.12v.56a4.5 4.5 0 0 1-4.5 4.5h-.38C8.69 21.76 2.24 15.31 2.24 7.13v-.38Z"/></svg>
-              +49 1637254664
-            </a>
-            <span class="inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-slate-300 bg-white font-semibold">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.25c-4.28 0-7.75 3.47-7.75 7.75 0 5.81 7.75 11.75 7.75 11.75s7.75-5.94 7.75-11.75c0-4.28-3.47-7.75-7.75-7.75Zm0 10.25a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z"/></svg>
-              Hannover 
-            </span>
-          </div>
-        </div>
-        <div class="relative flex justify-center">
-          <!-- Profile image with white background card -->
-          <div class="rounded-3xl bg-white p-3 shadow-xl border border-slate-200">
-            <img src="profile.PNG" alt="Oussama Guedri" class="rounded-2xl object-cover w-[360px] h-[480px]" />
-          </div>
-        </div>
+<!-- ========== HERO ========== -->
+<section id="top" class="relative min-h-[90vh] flex items-center overflow-hidden">
+  <div class="absolute inset-0 bg-cover bg-center scale-110 opacity-80"
+       style="background-image:url('consulting-bg.jpg')" data-parallax></div>
+  <div class="absolute inset-0 bg-white/80 backdrop-blur-sm"></div>
+
+  <div class="relative max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 px-4 py-24">
+    <div data-reveal>
+      <span class="text-xs font-semibold uppercase text-blue-700 bg-blue-100 px-3 py-1 rounded-full">
+        Verfügbar ab sofort
+      </span>
+
+      <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mt-4">
+        Oussama Guedri<br>
+        <span class="text-blue-700">Maschinenbauingenieur</span>
+      </h1>
+
+      <p class="mt-4 text-slate-700 max-w-xl">
+        Erfahrung in Antriebstechnik, Fertigung, Simulation, Lean-Production & Qualitätsmanagement.
+        Standort: Hannover – remote oder vor Ort.
+      </p>
+
+      <div class="flex gap-3 mt-6">
+        <a href="mailto:oussamaguedri@gmail.com" class="btn-primary">📩 E-Mail</a>
+        <a href="tel:+491637254664" class="btn-secondary">📞 Anrufen</a>
       </div>
     </div>
-  </section>
 
-<!-- Leistungen -->
-  <section id="leistungen" class="py-16 md:py-24">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Leistungen</h2>
-      <p class="mt-3 text-slate-600 max-w-3xl">Ich übernehme die vollständige Verantwortung für den gesamten Prozess von der Anforderungsanalyse über die Auschreibung und Beschaffungbis Umsetzung und Nachverfolgung. Transparent, wirksam und skalierbar.</p>
-      <div class="mt-8 grid md:grid-cols-3 gap-6">
-        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-          <h3 class="font-bold text-lg">Fertigung & Produktion </h3>
-          <ul class="mt-3 space-y-2 text-sm text-slate-700 list-disc list-inside">
-            <li>Optimierung von Fertigungsabläufen</li>
-            <li>Konstruktion & Betriebsmittelentwicklung </li>
-            <li>Digitale Simulation & Automatisierung</li>
-          </ul>
-        </div>
-        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-          <h3 class="font-bold text-lg">Produktionspalnung & Effizienz</h3>
-          <ul class="mt-3 space-y-2 text-sm text-slate-700 list-disc list-inside">
-            <li>Bedarf, Beschaffung, Lieferanten</li>
-            <li>Logistik- & Lagerkonzepte</li>
-            <li>Prozessmodellierung & KPI</li>
-          </ul>
-        </div>
-        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-          <h3 class="font-bold text-lg">Qualitätsmanagement</h3>
-          <ul class="mt-3 space-y-2 text-sm text-slate-700 list-disc list-inside">
-            <li>Qualitätsmethoden (FMEA, PPAP)</li>
-            <li>Toleranzanalyse & Prüfplanung </li>
-            <li>ISO 9001 & Prozessverbesserung</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
- <!-- Referenzen / Logos (auto sliding) -->
-  <section id="referenzen" class="py-16 md:py-24 bg-white border-y border-slate-200/70">
-<div class="max-w-6xl mx-auto px-4">
-<div class="flex items-end justify-between gap-4">
-<h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Unternehmen & Projekte</h2>
-<div class="flex items-center gap-2">
-<button id="logosPrev" aria-label="Zurück" class="p-2 rounded-lg border border-slate-200 hover:bg-slate-50">&larr;</button>
-<button id="logosNext" aria-label="Weiter" class="p-2 rounded-lg border border-slate-200 hover:bg-slate-50">&rarr;</button>
-</div>
-</div>
-<p class="mt-3 text-slate-600"></p>
-
-<div id="logoScroller" class="logo-track mt-6 overflow-x-auto flex gap-4 snap-x">
-
-  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
-    <img src="vw-logo.png" alt="Volkswagen" class="h-12 object-contain mb-2" />
-    <span class="text-sm font-medium text-slate-700">Volkswagen</span>
-  </div>
-
-  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
-    <img src="bmw-logo.png" alt="BMW" class="h-12 object-contain mb-2" />
-    <span class="text-sm font-medium text-slate-700">BMW</span>
-  </div>
-
-  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
-    <img src="ilfa-logo.png" alt="ILFA GmbH" class="h-12 object-contain mb-2" />
-    <span class="text-sm font-medium text-slate-700">ILFA GmbH</span>
-  </div>
-
-  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
-    <img src="hanomag-logo.png" alt="Hanomag" class="h-12 object-contain mb-2" />
-    <span class="text-sm font-medium text-slate-700">Hanomag</span>
-  </div>
-
-  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
-    <img src="iph-logo.png" alt="IPH" class="h-12 object-contain mb-2" />
-    <span class="text-sm font-medium text-slate-700">IPH</span>
-  </div>
-
-  <div class="logo-card min-w-[200px] shrink-0 rounded-2xl border border-slate-200 bg-white p-4 flex flex-col items-center justify-center">
-    <img src="bs-logo.png" alt="BS-Management" class="h-12 object-contain mb-2" />
-    <span class="text-sm font-medium text-slate-700">BS-Management</span>
-  </div>
-</div>
-
-<!-- Eigene Projekt-Sektion unterhalb der Logos -->
-<div class="mt-12 grid md:grid-cols-3 gap-6">
-  <!-- Projekt 1: 3D-gedruckte Brennstoffzelle -->
-  <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-    <img src="brennstoffzelle-cad.png" alt="3D-gedruckte Brennstoffzelle – CAD/Rendering" class="h-24 object-contain mb-4 mx-auto" />
-    <h3 class="font-bold text-lg text-center">3D-gedruckte Brennstoffzelle</h3>
-    <p class="mt-3 text-sm text-slate-600 text-center">
-      Entwicklung & Erprobung einer <strong>3D-gedruckten Brennstoffzelle</strong>; 
-      <strong>Aufhärtung von Kohlenstofffasern</strong> für Leichtbau-Autoteile. 
-      <strong>CAD-Konstruktion & Simulation</strong>, Materialtests und Übertragbarkeit auf weitere F&E-Projekte.
-    </p>
-  </div>
-
-  <!-- Projekt 2: Lean-ERP (Outlook · Excel · Power BI) -->
-  <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-    <img src="erp-system.png" alt="Lean-ERP mit Outlook, Excel und Power BI" class="h-24 object-contain mb-4 mx-auto" />
-    <h3 class="font-bold text-lg text-center">Lean-ERP (Outlook · Excel · Power BI)</h3>
-    <p class="mt-3 text-sm text-slate-600 text-center">
-      Aufbau eines <strong>leichtgewichtigen ERP-Systems</strong> auf Microsoft-Basis: 
-      <strong>Outlook</strong> (Workflows), <strong>Excel</strong> (Stammdaten & Datenmodell), 
-      <strong>Power BI</strong> (KPI-Dashboards). Automatisierte Freigaben, Einkauf/Controlling-Schnittstellen & Reporting.
-    </p>
-  </div>
-
-  <!-- Projekt 3: Smart Supply Chain & Ramp-up -->
-  <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
-    <img src="smart-supplychain.png" alt="Smart Supply Chain – Ramp-up, FIFO/LIFO" class="h-24 object-contain mb-4 mx-auto" />
-    <h3 class="font-bold text-lg text-center">Smart Supply Chain & Ramp-up</h3>
-    <p class="mt-3 text-sm text-slate-600 text-center">
-      Planung einer <strong>Smart Supply Chain</strong> (FHT) inkl. <strong>Ramp-up-Management</strong>; 
-      <strong>FIFO/LIFO</strong> für Bestands- & Materialflussoptimierung, Takt/Kapazitätsplanung, 
-      Lieferanten-Onboarding und KPI-Monitoring (Servicegrad, OTD, WIP).
-    </p>
-  </div>
-
-</div>
-
-
-
-
-
-
-</div>
-</div>      <!-- schließt: <div class="max-w-6xl mx-auto px-4"> -->
-</section>  <!-- schließt: <section id="referenzen" ...> -->
-
-<!-- Skills -->
-  <section id="skills" class="py-16 md:py-24">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Skills & Tech-Stack</h2>
-      <div class="mt-8 grid md:grid-cols-2 gap-6">
-        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-          <h3 class="font-bold">Methoden & Domänen</h3>
-          <ul class="mt-3 grid grid-cols-2 gap-2 text-sm text-slate-700">
-            <li>Ansys</li>
-            <li>CATIA V5</li>
-              <li>Python</li>
-            <li>Qualitätsmanagement (ISO 9001, VDA 6.3)</li>
-<li>Simufact software</li>
-<li>SAP Software</li>
-
-            <li>Ausschreibung</li>
-           <li>Vergabe</li>
-            <li>Budgetierung</li>
-            <li>Forecast</li>
-            <li>Procurement</li>
-            <li>Lieferanten</li>
-            <li>Prozessmodellierung</li>
-          </ul>
-        </div>
-        <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-          <h3 class="font-bold">Tools & Software</h3>
-          <ul class="mt-3 grid grid-cols-2 gap-2 text-sm text-slate-700">
-            <li>MS Office</li>
-            <li>Power BI</li>
-            <li>SAP S/4HANA</li>
-            <li>iTWO</li> 
-            <li>Thinkproject</li>
-            <li>BIM</li>
-            <li>Jira</li>
-            <li>Confluence</li>
-            <li>WordPress</li>
-            <li> Xcode</li>
-            <li>Matlab</li>
-            <li> SolidWorks</li>
-          </ul>
-        </div>
-      </div>
-      <div class="mt-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-  <h3 class="font-bold">Sprachen</h3>
-  <ul class="mt-2 list-disc list-inside text-sm text-slate-700 space-y-1">
-    <li>Deutsch (verhandlungssicher)</li>
-    <li>Englisch (fließend)</li>
-    <li>Französisch & Arabisch (Muttersprache)</li>
-    <li>Russisch & Spanisch (Grundkenntnisse)</li>
-  </ul>
-</div>
-  
-
-  <!-- Kontakt -->
-  <section id="kontakt" class="py-16 md:py-24 bg-white border-t border-slate-200">
-    <div class="max-w-6xl mx-auto px-4">
-      <div class="grid lg:grid-cols-3 gap-10">
-        <div class="lg:col-span-2">
-          <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight">Kontakt</h2>
-          <p class="mt-3 text-slate-600">Lassen Sie uns Ihr Projekt besprechen. Ich melde mich zeitnah zurück.</p>
-          <form class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4" onsubmit="handleSubmit(event)">
-            <input required name="name" placeholder="Ihr Name" class="w-full rounded-xl border border-slate-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-400" />
-            <input required name="email" type="email" placeholder="Ihre E-Mail" class="w-full rounded-xl border border-slate-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-400" />
-            <input name="firma" placeholder="Firma (optional)" class="w-full rounded-xl border border-slate-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-400 md:col-span-2" />
-            <textarea required name="nachricht" placeholder="Kurz Ihr Anliegen" rows="4" class="w-full rounded-xl border border-slate-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-400 md:col-span-2"></textarea>
-            <button class="inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-blue-600 text-white font-semibold shadow hover:bg-blue-700 md:col-span-2">Nachricht senden</button>
-          </form>
-          <p id="formNote" class="mt-3 text-xs text-slate-500">Hinweis: Dieses Kontaktformular verschickt keine E-Mails direkt. Stattdessen öffnet es Ihr E-Mail-Programm mit einer vorbereiteten Nachricht.</p>
-        </div>
-        <aside class="rounded-2xl border border-slate-200 bg-slate-50 p-6 shadow-sm">
-          <h3 class="font-bold">Direktkontakt</h3>
-          <ul class="mt-3 text-sm space-y-1 pl-0 list-none">
-  <li><strong>E-Mail:</strong> <a class="text-blue-700 underline" href="mailto:oussamaguedri@gmail.com">Oussamaguedri@gmail.com</a></li>
-  <li><strong>Telefon:</strong> <a class="text-blue-700 underline" href="tel:+491637254664">+491637254664</a></li>
-  <li><strong>Adresse:</strong> Hannover </li>
-  <li><strong>Verfügbarkeit:</strong> ab sofort</li>
-</ul>
-        
-        </aside>
-      </div>
-    </div>
-  </section>
-
-  
-  <!-- Chatbot: Tidio -->
-  <script src="//code.tidio.co/vacgswpiihdooa9fgrxkwcybjf4r53sk.js" async></script>
-<!-- === FUN BANNER + MINI GAME === -->
-<section id="fun" style="max-width:1250px;margin:40px auto;padding:0 16px;">
-  <!-- Banner -->
-  <div style="background:linear-gradient(90deg,#0059c9,#0083ff);color:#fff;
-              border-radius:14px;padding:20px;text-align:center;margin-bottom:20px">
-    <h2 style="margin:0;font-size:20px;font-weight:600">
-      Wartezeit? Kein Stress! 🎮
-<br/>
-     Zock’ ne Runde, bis ich antworte 🚀
-    </h2>
-  </div>
-
-  <!-- Mini-Game -->
-  <div style="background:#121a24;border:1px solid #223140;border-radius:14px;padding:16px;">
-    <h3 style="margin:0 0 10px;font-size:16px;color:#0083ff">Mini-Game: Runner</h3>
-    <p style="color:#9fb0c3;font-size:12px;margin:0 0 10px">
-      Steuerung: <b>Leertaste</b>/<b>↑</b> oder <b>Klick/Tap</b> ins Spielfeld. <b>P</b> für Pause.
-    </p>
-    <canvas id="runnerCanvas" width="900" height="200"
-      style="width:100%;height:auto;display:block;background:#0e141b;border:2px solid #0059c9;border-radius:10px;touch-action:none"></canvas>
-
-    <!-- On-Screen Controls -->
-    <div style="display:flex;gap:10px;justify-content:center;margin-top:10px;flex-wrap:wrap">
-      <button id="btnJump"
-        style="padding:10px 16px;border-radius:10px;border:none;
-               background:linear-gradient(90deg,#0059c9,#0083ff);
-               color:#fff;cursor:pointer;font-weight:600">
-        ⬆ Jump
-      </button>
-      <button id="btnPause"
-        style="padding:10px 16px;border-radius:10px;border:none;
-               background:linear-gradient(90deg,#0059c9,#0083ff);
-               color:#fff;cursor:pointer;font-weight:600">
-        ⏸ Pause
-      </button>
+    <div class="flex justify-center" data-reveal>
+      <img src="profile.png" class="w-[360px] h-[460px] object-cover rounded-3xl shadow-2xl float"/>
     </div>
   </div>
 </section>
 
-<script>
-(()=>{ // Runner Game
-  const cvs=document.getElementById('runnerCanvas'),ctx=cvs.getContext('2d');
-  const btnJump=document.getElementById('btnJump'),btnPause=document.getElementById('btnPause');
-  const G={groundY:160,speed:6,gravity:0.7,jumpV:-12.5,t:0,paused:false,started:false,
-           score:0,hi:Number(localStorage.getItem('runner_hi')||0),
-           obstacles:[],particles:[],cloudT:0,cloudList:[],nextObs:40};
-  const hero={x:50,y:130,w:28,h:30,vy:0,onGround:true,blink:0};
-  const rnd=(a,b)=>Math.random()*(b-a)+a;
-  function reset(){G.speed=6;G.score=0;G.t=0;G.obstacles.length=0;G.particles.length=0;G.cloudList.length=0;
-    hero.x=50;hero.y=G.groundY-hero.h;hero.vy=0;hero.onGround=true;G.started=false;G.nextObs=40;
-    spawnClouds(6);}
-  function spawnObstacle(){const h=Math.round(rnd(20,45)),w=Math.round(rnd(14,26)),gapBoost=Math.max(0,(G.speed-6)*6);
-    G.obstacles.push({x:cvs.width+20,y:G.groundY-h,w,h,hit:false,type:(Math.random()<0.2?'double':'single')});
-    G.nextObs=G.t+Math.round(rnd(50-gapBoost,95-gapBoost));}
-  function spawnClouds(n=1){for(let i=0;i<n;i++){G.cloudList.push({x:rnd(0,cvs.width),y:rnd(10,60),s:rnd(0.3,0.8)});}}
-  function spawnDust(x,y,count=4){for(let i=0;i<count;i++){G.particles.push({x,y,vx:rnd(-1,1),vy:rnd(-2,-0.5),life:rnd(12,22)});}}
-  function jump(){if(!G.started){G.started=true;return;}if(hero.onGround){hero.vy=G.jumpV;hero.onGround=false;spawnDust(hero.x+hero.w/2,hero.y+hero.h,6);}}
-  function togglePause(){G.paused=!G.paused;}
-  addEventListener('keydown',e=>{if(e.code==='Space'||e.code==='ArrowUp'){e.preventDefault();jump();}if(e.key==='p'||e.key==='P'){togglePause();}},{passive:false});
-  cvs.addEventListener('pointerdown',jump);btnJump.addEventListener('click',jump);btnPause.addEventListener('click',togglePause);
-  const collide=(a,b)=>!(a.x+a.w<b.x||a.x>b.x+b.w||a.y+a.h<b.y||a.y>b.y+b.h);
-  function drawGround(){ctx.strokeStyle='#223140';ctx.beginPath();ctx.moveTo(0,G.groundY+0.5);ctx.lineTo(cvs.width,G.groundY+0.5);ctx.stroke();}
-  function drawHero(){ctx.fillStyle='#0083ff';ctx.fillRect(hero.x,hero.y,hero.w,hero.h);
-    const phase=Math.sin(G.t*0.3);ctx.fillStyle='#4da9ff';
-    ctx.fillRect(hero.x+4,hero.y+hero.h-6,6,6+phase*2);
-    ctx.fillRect(hero.x+hero.w-10,hero.y+hero.h-6,6,6-phase*2);
-    hero.blink=(hero.blink+1)%120;const eyeOpen=hero.blink<110;
-    ctx.fillStyle=eyeOpen?'#0b0f14':'#121a24';
-    ctx.fillRect(hero.x+8,hero.y+8,3,eyeOpen?3:1);
-    ctx.fillRect(hero.x+hero.w-12,hero.y+8,3,eyeOpen?3:1);}
-  function drawObstacle(o){ctx.fillStyle='#2ea043';ctx.fillRect(o.x,o.y,o.w,o.h);}
-  function drawCloud(c){ctx.fillStyle='#1a2230';ctx.beginPath();ctx.arc(c.x,c.y,12*c.s,0,Math.PI*2);ctx.fill();}
-  function drawHUD(){ctx.fillStyle='#9fb0c3';ctx.font='12px Inter';ctx.fillText(Score: ${G.score},12,16);ctx.fillText(High: ${G.hi},12,32);}
-  function step(){if(!G.paused){G.t++;if(G.t%300===0)G.speed=Math.min(G.speed+0.35,14);
-    if(G.cloudT--<=0){spawnClouds(1);G.cloudT=Math.round(rnd(80,160));}
-    if(G.t>=G.nextObs&&G.started)spawnObstacle();
-    if(!hero.onGround){hero.vy+=G.gravity;hero.y+=hero.vy;
-      if(hero.y>=G.groundY-hero.h){hero.y=G.groundY-hero.h;hero.vy=0;hero.onGround=true;spawnDust(hero.x+hero.w/2,hero.y+hero.h,4);}}
-    for(let i=G.obstacles.length-1;i>=0;i--){const o=G.obstacles[i];o.x-=G.speed;if(o.x+o.w<0){G.obstacles.splice(i,1);continue;}
-      if(collide(hero,o)){hero.vy=-8;hero.onGround=false;if(G.score>G.hi){G.hi=G.score;localStorage.setItem('runner_hi',String(G.hi));}reset();break;}
-      if(!o.hit&&o.x+o.w<hero.x){o.hit=true;G.score++;}}
-    for(let i=G.particles.length-1;i>=0;i--){const p=G.particles[i];p.x+=p.vx;p.y+=p.vy;p.vy+=0.15;if(--p.life<=0)G.particles.splice(i,1);}}
-    ctx.clearRect(0,0,cvs.width,cvs.height);
-    G.cloudList.forEach(drawCloud);drawGround();G.obstacles.forEach(drawObstacle);
-    ctx.fillStyle='#415a77';G.particles.forEach(p=>ctx.fillRect(p.x,p.y,2,2));
-    drawHero();drawHUD();requestAnimationFrame(step);}
-  document.addEventListener('visibilitychange',()=>{G.paused=document.hidden||G.paused;});
-  reset();step();
-})();
-</script>
-<!-- === / FUN BANNER + MINI GAME === -->
-<!-- Footer -->
-  <footer class="py-10">
-    <div class="max-w-6xl mx-auto px-4 text-sm text-slate-500 flex flex-col md:flex-row items-center justify-between gap-3">
-      <p>&copy; <span id="year"></span> Oussama Guedri. Alle Rechte vorbehalten.</p>
-      <div class="flex items-center gap-3">
-        <a class="hover:text-slate-700" href="#top">Impressum (Platzhalter)</a>
-        <span aria-hidden="true">·</span>
-        <a class="hover:text-slate-700" href="#top">Datenschutz (Platzhalter)</a>
+<!-- ========== LEISTUNGEN ========== -->
+<section id="leistungen" class="py-24">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-extrabold" data-reveal>Leistungen</h2>
+
+    <div class="grid md:grid-cols-3 gap-6 mt-10">
+      <div class="card p-6 rounded-2xl border bg-white" data-reveal>
+        <h3 class="font-bold text-lg">Fertigung & Produktion</h3>
+        <ul class="mt-3 text-sm text-slate-700 space-y-1 list-disc list-inside">
+          <li>Prozessoptimierung</li>
+          <li>Konstruktion & Betriebsmittel</li>
+          <li>Simulation & Automatisierung</li>
+        </ul>
+      </div>
+
+      <div class="card p-6 rounded-2xl border bg-white" data-reveal>
+        <h3 class="font-bold text-lg">Supply Chain & Planung</h3>
+        <ul class="mt-3 text-sm text-slate-700 space-y-1 list-disc list-inside">
+          <li>Einkauf & Lieferanten</li>
+          <li>ERP/Power BI Workflows</li>
+          <li>KPI & Prozessmodellierung</li>
+        </ul>
+      </div>
+
+      <div class="card p-6 rounded-2xl border bg-white" data-reveal>
+        <h3 class="font-bold text-lg">Qualitätsmanagement</h3>
+        <ul class="mt-3 text-sm text-slate-700 space-y-1 list-disc list-inside">
+          <li>FMEA, PPAP, 8D, ISO 9001</li>
+          <li>Messtechnik & Prüfplanung</li>
+          <li>Toleranz & Prozessverbesserung</li>
+        </ul>
       </div>
     </div>
-  </footer>
-  
-  <!-- Social-Logos nebeneinander (nur HTML mit Inline-Styles) -->
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; margin-top:20px;">
-  <a href="https://de.linkedin.com/in/oussama-guedri-47551783/en" target="_blank" rel="noopener" title="LinkedIn">
-    <img src="linkedin-icon.png" alt="LinkedIn" style="height:50px; width:auto; display:block; object-fit:contain;">
-  </a>
-  <a href="https://www.xing.com/profile/Guedri_Oussama/web_profiles" target="_blank" rel="noopener" title="Xing">
-    <img src="xing-icon.png" alt="Xing" style="height:50px; width:auto; display:block; object-fit:contain;">
-  </a>
-</div>
+  </div>
+</section>
 
+<!-- ========== REFERENZEN LOGOS (GITHUB JSON) ========== -->
+<section id="referenzen" class="py-24 bg-white border-y">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-extrabold" data-reveal>Unternehmen & Projekte</h2>
 
-  <script>
-    // Footer year
-    document.getElementById('year').textContent = new Date().getFullYear();
+    <div id="logoScroller" class="flex gap-4 overflow-x-auto mt-8 py-2"></div>
+  </div>
+</section>
 
-    // Contact form: open mailto with prefill
-    function handleSubmit(e) {
-      e.preventDefault();
-      const data = Object.fromEntries(new FormData(e.target).entries());
-      const subject = encodeURIComponent('Projektanfrage – ' + (data.name || '')); 
-      const body = encodeURIComponent(
-        Hallo Oussama,\n\n +
-        mein Name: ${data.name || ''}\n +
-        E-Mail: ${data.email || ''}\n +
-        Firma: ${data.firma || ''}\n\n +
-        Anliegen: ${data.nachricht || ''}\n\n +
-        Beste Grüße
-      );
-      window.location.href = mailto:oussamaguedri@gmail.com?subject=${subject}&body=${body};
-    }
+<script>
+// GitHub Logos laden
+const GITHUB_USER = "DEIN_GITHUB_USER";
+const REPO = "DEIN_REPO";
+async function loadLogos(){
+  const base = `https://raw.githubusercontent.com/${GITHUB_USER}/${REPO}/main/logos/`;
+  const url = `https://raw.githubusercontent.com/${GITHUB_USER}/${REPO}/main/data/logos.json`;
+  const data = await fetch(url).then(r=>r.json());
+  document.getElementById("logoScroller").innerHTML = data.map(l=>`
+    <div class="card min-w-[180px] p-4 rounded-xl border bg-white text-center">
+      <img src="${base+l.img}" class="h-12 object-contain mx-auto mb-2"/>
+      <p class="text-sm font-medium">${l.name}</p>
+    </div>`).join("");
+}
+loadLogos();
+</script>
 
-    // Logo scroller buttons + auto slide
-    const scroller = document.getElementById('logoScroller');
-    const prevBtn = document.getElementById('logosPrev');
-    const nextBtn = document.getElementById('logosNext');
+<!-- ========== SKILLS ========== -->
+<section id="skills" class="py-24">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-extrabold" data-reveal>Skills & Tools</h2>
 
-    function slideBy(dir=1){
-      scroller.scrollBy({ left: 220 * dir, behavior: 'smooth' });
-    }
-    prevBtn.addEventListener('click', () => slideBy(-1));
-    nextBtn.addEventListener('click', () => slideBy(1));
+    <div class="grid md:grid-cols-2 gap-6 mt-10">
+      <div class="card p-6 rounded-2xl border bg-white" data-reveal>
+        <h3 class="font-bold">Methoden & Domänen</h3>
+        <ul class="mt-3 grid grid-cols-2 gap-2 text-sm text-slate-700">
+          <li>Ansys</li><li>CATIA V5</li><li>Simufact</li>
+          <li>Qualitätsmanagement</li><li>SAP</li><li>Python</li>
+        </ul>
+      </div>
 
-    // Auto slide & loop perception
-    let auto = setInterval(()=>slideBy(1), 2500);
-    scroller.addEventListener('mouseenter', ()=> clearInterval(auto));
-    scroller.addEventListener('mouseleave', ()=> auto = setInterval(()=>slideBy(1), 2500));
-  </script>
+      <div class="card p-6 rounded-2xl border bg-white" data-reveal>
+        <h3 class="font-bold">Tools & Software</h3>
+        <ul class="mt-3 grid grid-cols-2 gap-2 text-sm text-slate-700">
+          <li>Power BI</li><li>Excel/Outlook Workflows</li>
+          <li>Jira/Confluence</li><li>SolidWorks</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== KONTAKT ========== -->
+<section id="kontakt" class="py-24 bg-white border-t">
+  <div class="max-w-6xl mx-auto px-4 grid lg:grid-cols-3 gap-10">
+    <div class="lg:col-span-2" data-reveal>
+      <h2 class="text-3xl font-extrabold">Kontakt</h2>
+
+      <form class="grid gap-4 mt-6" onsubmit="sendMail(event)">
+        <input name="name" placeholder="Ihr Name" required class="border rounded-xl px-4 py-3"/>
+        <input name="email" type="email" placeholder="Ihre E-Mail" required class="border rounded-xl px-4 py-3"/>
+        <textarea name="msg" rows="4" placeholder="Kurze Nachricht" required class="border rounded-xl px-4 py-3"></textarea>
+        <button class="btn-primary">Nachricht senden</button>
+      </form>
+    </div>
+
+    <div class="card p-6 rounded-2xl border bg-white" data-reveal>
+      <p><strong>E-Mail:</strong><br><a href="mailto:oussamaguedri@gmail.com">oussamaguedri@gmail.com</a></p>
+      <p class="mt-2"><strong>Telefon:</strong><br><a href="tel:+491637254664">+49 163 7254664</a></p>
+      <p class="mt-2"><strong>Ort:</strong><br>Hannover, Deutschland</p>
+      <p class="mt-2"><strong>Verfügbar:</strong><br>ab sofort</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="py-8 text-center text-sm text-slate-600">
+  © <span id="year"></span> Oussama Guedri – Alle Rechte vorbehalten.
+</footer>
+
+<script>
+// Jahr
+document.getElementById("year").textContent = new Date().getFullYear();
+
+// Kontakt → Mailto
+function sendMail(e){
+  e.preventDefault();
+  const d = Object.fromEntries(new FormData(e.target));
+  window.location = `mailto:oussamaguedri@gmail.com?subject=Kontaktanfrage ${d.name}&body=${d.msg}%0A%0AEmail: ${d.email}`;
+}
+
+// Parallax
+document.addEventListener("scroll",()=>{
+  document.querySelectorAll("[data-parallax]").forEach(el=>{
+    el.style.transform = `translateY(${window.scrollY * 0.12}px)`
+  });
+});
+
+// Reveal on scroll
+const io = new IntersectionObserver(e=>e.forEach(x=>x.isIntersecting && x.target.classList.add("reveal-visible")));
+document.querySelectorAll("[data-reveal]").forEach(el => io.observe(el));
+
+// Dark Mode
+document.getElementById("toggleDark").onclick=()=>document.documentElement.classList.toggle("dark");
+</script>
+
+</body>
+</html>
