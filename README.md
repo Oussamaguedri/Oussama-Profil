@@ -108,8 +108,6 @@
     </div>
   </section>
 
-  <!-- Referenzen / Logos (auto sliding) -->
- <img width="628" height="828" alt="image" src="https://github.com/user-attachments/assets/93a76feb-56b8-432c-afd9-fcafa21e9301" />
  <!-- Referenzen / Logos (auto sliding) -->
   <section id="referenzen" class="py-16 md:py-24 bg-white border-y border-slate-200/70">
 <div class="max-w-6xl mx-auto px-4">
