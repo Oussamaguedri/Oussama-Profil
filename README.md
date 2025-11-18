@@ -60,7 +60,7 @@
             </a>
             <span class="inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-slate-300 bg-white font-semibold">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.25c-4.28 0-7.75 3.47-7.75 7.75 0 5.81 7.75 11.75 7.75 11.75s7.75-5.94 7.75-11.75c0-4.28-3.47-7.75-7.75-7.75Zm0 10.25a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z"/></svg>
-              Hannover 
+              Hannover
             </span>
           </div>
         </div>
@@ -108,6 +108,8 @@
     </div>
   </section>
 
+  <!-- Referenzen / Logos (auto sliding) -->
+ <img width="628" height="828" alt="image" src="https://github.com/user-attachments/assets/93a76feb-56b8-432c-afd9-fcafa21e9301" />
  <!-- Referenzen / Logos (auto sliding) -->
   <section id="referenzen" class="py-16 md:py-24 bg-white border-y border-slate-200/70">
 <div class="max-w-6xl mx-auto px-4">
@@ -160,8 +162,8 @@
     <img src="brennstoffzelle-cad.png" alt="3D-gedruckte Brennstoffzelle – CAD/Rendering" class="h-24 object-contain mb-4 mx-auto" />
     <h3 class="font-bold text-lg text-center">3D-gedruckte Brennstoffzelle</h3>
     <p class="mt-3 text-sm text-slate-600 text-center">
-      Entwicklung & Erprobung einer <strong>3D-gedruckten Brennstoffzelle</strong>; 
-      <strong>Aufhärtung von Kohlenstofffasern</strong> für Leichtbau-Autoteile. 
+      Entwicklung & Erprobung einer <strong>3D-gedruckten Brennstoffzelle</strong>;
+      <strong>Aufhärtung von Kohlenstofffasern</strong> für Leichtbau-Autoteile.
       <strong>CAD-Konstruktion & Simulation</strong>, Materialtests und Übertragbarkeit auf weitere F&E-Projekte.
     </p>
   </div>
@@ -171,8 +173,8 @@
     <img src="erp-system.png" alt="Lean-ERP mit Outlook, Excel und Power BI" class="h-24 object-contain mb-4 mx-auto" />
     <h3 class="font-bold text-lg text-center">Lean-ERP (Outlook · Excel · Power BI)</h3>
     <p class="mt-3 text-sm text-slate-600 text-center">
-      Aufbau eines <strong>leichtgewichtigen ERP-Systems</strong> auf Microsoft-Basis: 
-      <strong>Outlook</strong> (Workflows), <strong>Excel</strong> (Stammdaten & Datenmodell), 
+      Aufbau eines <strong>leichtgewichtigen ERP-Systems</strong> auf Microsoft-Basis:
+      <strong>Outlook</strong> (Workflows), <strong>Excel</strong> (Stammdaten & Datenmodell),
       <strong>Power BI</strong> (KPI-Dashboards). Automatisierte Freigaben, Einkauf/Controlling-Schnittstellen & Reporting.
     </p>
   </div>
@@ -182,13 +184,44 @@
     <img src="smart-supplychain.png" alt="Smart Supply Chain – Ramp-up, FIFO/LIFO" class="h-24 object-contain mb-4 mx-auto" />
     <h3 class="font-bold text-lg text-center">Smart Supply Chain & Ramp-up</h3>
     <p class="mt-3 text-sm text-slate-600 text-center">
-      Planung einer <strong>Smart Supply Chain</strong> (FHT) inkl. <strong>Ramp-up-Management</strong>; 
-      <strong>FIFO/LIFO</strong> für Bestands- & Materialflussoptimierung, Takt/Kapazitätsplanung, 
+      Planung einer <strong>Smart Supply Chain</strong> (FHT) inkl. <strong>Ramp-up-Management</strong>;
+      <strong>FIFO/LIFO</strong> für Bestands- & Materialflussoptimierung, Takt/Kapazitätsplanung,
       Lieferanten-Onboarding und KPI-Monitoring (Servicegrad, OTD, WIP).
     </p>
   </div>
+<!-- Projekt: Triebwerk Testing -->
+<div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
+  <img src="triebwerk-testing.png" alt="Triebwerk Testing – Prüfstand & Messdaten" class="h-24 object-contain mb-4 mx-auto" />
+  <h3 class="font-bold text-lg text-center">Triebwerk Testing</h3>
+  <p class="mt-3 text-sm text-slate-600 text-center">
+    Planung, Durchführung und Dokumentation von <strong>Prüfstandsläufen</strong> für Komponenten- und Systemtests.
+    <strong>Instrumentierung &amp; Messdatenerfassung</strong> (Schwingung, Temperatur, Druck) sowie
+    <strong>Leistungsanalyse</strong> und Auswertung von Kennfeldern – gemäß relevanter <strong>Sicherheits- und Qualitätsvorgaben</strong>.
+  </p>
+</div>
 
+<!-- Projekt: Software & App Testing -->
+<div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
+  <img src="software-app-testing.png" alt="Software & App Testing – manuell und automatisiert" class="h-24 object-contain mb-4 mx-auto" />
+  <h3 class="font-bold text-lg text-center">Software &amp; App Testing</h3>
+  <p class="mt-3 text-sm text-slate-600 text-center">
+    End-to-end <strong>Teststrategie</strong> inkl. Testplänen und -fällen, <strong>manuell &amp; automatisiert</strong>
+    (Unit, Integration, UI/E2E). <strong>Device-Matrix</strong> (iOS/Android/Browsers), Bug-Tracking,
+    <strong>CI/CD-Gates</strong> und Release-Readiness mit klaren <strong>Testberichten</strong>.
+  </p>
+</div>
 
+<!-- Projekt: Business Beratung -->
+<div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition">
+  <img src="business-consulting.png" alt="Business Beratung – SWOT, Risiko/Chancen, Marktpräsenz" class="h-24 object-contain mb-4 mx-auto" />
+  <h3 class="font-bold text-lg text-center">Business Beratung</h3>
+  <p class="mt-3 text-sm text-slate-600 text-center">
+    Von <strong>SWOT</strong> und <strong>Risiko-/Chancenanalyse</strong> bis <strong>Go-to-Market</strong>,
+    <strong>Online- &amp; Marktpräsenz</strong>: datenbasierte, <strong>trendkonforme Methoden</strong>
+    (Wettbewerbs- &amp; Trendanalysen, Benchmarking) und <strong>KPI/OKR</strong>-gesteuerte Umsetzung
+    – auf Wunsch mit <strong>Power&nbsp;BI</strong>-Dashboards.
+  </p>
+</div>
 
 
 </div>
@@ -225,7 +258,7 @@
             <li>MS Office</li>
             <li>Power BI</li>
             <li>SAP S/4HANA</li>
-            <li>iTWO</li> 
+            <li>iTWO</li>
             <li>Thinkproject</li>
             <li>BIM</li>
             <li>Jira</li>
@@ -246,7 +279,7 @@
     <li>Russisch & Spanisch (Grundkenntnisse)</li>
   </ul>
 </div>
-  
+ 
 
   <!-- Kontakt -->
   <section id="kontakt" class="py-16 md:py-24 bg-white border-t border-slate-200">
@@ -272,13 +305,13 @@
   <li><strong>Adresse:</strong> Hannover </li>
   <li><strong>Verfügbarkeit:</strong> ab sofort</li>
 </ul>
-        
+       
         </aside>
       </div>
     </div>
   </section>
 
-  
+ 
   <!-- Chatbot: Tidio -->
   <script src="//code.tidio.co/vacgswpiihdooa9fgrxkwcybjf4r53sk.js" async></script>
 <!-- === FUN BANNER + MINI GAME === -->
@@ -383,7 +416,7 @@
       </div>
     </div>
   </footer>
-  
+ 
   <!-- Social-Logos nebeneinander (nur HTML mit Inline-Styles) -->
 <div style="display:flex; justify-content:center; align-items:center; gap:16px; margin-top:20px;">
   <a href="https://de.linkedin.com/in/oussama-guedri-47551783/en" target="_blank" rel="noopener" title="LinkedIn">
@@ -403,7 +436,7 @@
     function handleSubmit(e) {
       e.preventDefault();
       const data = Object.fromEntries(new FormData(e.target).entries());
-      const subject = encodeURIComponent('Projektanfrage – ' + (data.name || '')); 
+      const subject = encodeURIComponent('Projektanfrage – ' + (data.name || ''));
       const body = encodeURIComponent(
         Hallo Oussama,\n\n +
         mein Name: ${data.name || ''}\n +
@@ -430,4 +463,3 @@
     let auto = setInterval(()=>slideBy(1), 2500);
     scroller.addEventListener('mouseenter', ()=> clearInterval(auto));
     scroller.addEventListener('mouseleave', ()=> auto = setInterval(()=>slideBy(1), 2500));
-  </script>
